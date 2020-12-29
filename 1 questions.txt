@@ -1,0 +1,12 @@
+
+	--Just for fun:
+
+	-- Insert Record into "CustomerDemographics" table, Then update column CustomerDesc and finally delete the record.
+	-- Get the details of all the suppliers who are supplying from Japan
+	-- Fetch the description of Category "condiments".
+	-- Get the name and Phone number of all the customers living in London
+	-- Get the employee details who Live in USA but not in the city "Seattle"
+	-- Get the details of all the employees who are hired after 1993
+	-- Get the order details of all the orders whose UnitPrice is more than 10
+	
+	--FYI: In SQL, This "--" is used to define comments, which wont be executed. (Copy this whole text and paste in SSMS)

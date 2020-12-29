@@ -1,0 +1,37 @@
+-- Dont delete any of the queries !!
+
+
+-- Create a table named 'Example' with columns containing data types having 'string', 'Numeric','date','time' and 'datetime'. 
+   and with one column having a 'default value'.
+-- Drop one of the columns
+-- Insert 3 different records into that table.
+-- Update any one column from the first record in the table.
+-- Delete the fist updated record in from the table.
+-- Delete the whole table.
+
+-- Create 2 tables A and B with 3 columns of any datatype but both table definition has to be same. 
+   Insert 3 records in B and 4 records in A, 
+-- and the extra 4th records should be same to one of the records in B. Dont drop these 2 tables.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+-- Get the orderID and ship address of the least Frieght value.
+-- Fetch the OrderID and productID of orders with the highest Unit price.
+-- what is the mean UnitPrice of all the products.
+-- How many total quantity of order details are there?
+-- How many employees are there ?
+
+-- Select the frist 3 tuples of customer details ordered by contact name.
+
+-- Select all the customer details who are not from Germany
+-- Display all the unique orderID from Order details table.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+-- Name all the customers who are form the city 'Marseille'
+-- Name all the customers whose jobs are related to Sales.
+-- fetch the details of all the categories having name as 'Beverages','Condiments','Confections','Dairy Products'
+-- Find the details of all the orders where the frieght value is within 10 and 30.
+-- Show the mean value of Frieght in Orders, grouped by ShipCity.
+-- Show the highest value of frieght in Orders, grouped by ShipCountry... but not from 'Brazil'
+
+-- Display the tuples from table A and B together.
+-- Only display the common records from table A and B.
+-- Show only the tuples from table a but not in B.

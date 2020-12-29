@@ -1,0 +1,81 @@
+﻿
+What is a Relational Database?
+A relational database refers to the database type that stores a collection of data items having pre-defined relationships. This database adopts the relational model, representing data as a set of tables with columns and rows. 
+In a relational database, each column within a table contains specific data and a field that stores an attribute’s real value.
+On the other hand, the rows within a table contain a collection of a particular object’s related values. 
+Each row has a unique identifier known as the primary key. You can access the stored data without needing to reorganize the tables. 
+
+SQL:
+SQL is a type of language that can be used to utilize your database. It is a base language for databases like MySQL, SQL Server, Oracle etc. 
+SQL stands for Structure Query Language and it can be used to utilize the relational database management system.
+This can also be used for accessing, manipulating and updating data in the database using some commands. 
+The American National Standards Institute (ANSI) maintains that SQL is the standard language for managing a relational database management system, such as MySQL. 
+It is owned, hosted, maintained, and offered by Microsoft. 
+
+MySQL:
+MySQL is a relational database management system that utilizes the SQL command.
+MySQL was developed way back in 1995 by MySQL AB. However, now it is owned and offered by Oracle Corporation. 
+MySQL is an open-source relational database management system that uses SQL commands to perform specific functions/operations in a database. 
+
+*SQL is a query language, whereas MySQL is a relational database that uses SQL to query a database.
+*SQL is used for writing queries for databases, MySQL facilitates data storing, modifying, and management in a tabular format.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ddl:
+CREATE TABLE ' '
+ALTER TABLE ' ' DROP COLUMN ' '
+DROP TABLE ' '
+
+dml:
+UPDATE ' ' SET ' ' = ' ' WHERE ' ' = ' ' OR/AND ' ' = ' '
+DELETE FROM ' ' WHERE ' ' = ' ' 
+INSERT INTO ' ' (' ', ' ', ' ') VALUES (' ', ' ', ' ')
+SELECT * FROM ' ' 
+
+functions:
+MIN
+MAX
+AVG
+SUM
+COUNT
+
+TOP 1
+ORDER BY
+
+datatypes:
+String - CHAR(10), VARCHAR(10),nTEXT
+Numeric - BIT, INT, FLOAT
+Date and Time = DATE, TIME, DATETIME
+
+NOT
+PRIMARY KEY
+FOREIGN KEY
+DEFAULT
+DISTINCT
+
+
+LIKE
+IN
+BETWEEN
+GROUP BY
+HAVING
+
+
+UNION
+INTERSECT
+EXCEPT
+
+
+exist
+IF else, begin end
+case
+store procedure
+
+$$ Finished until HERE $$
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+JOINS
+constraint
+
+
+
