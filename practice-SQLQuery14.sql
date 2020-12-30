@@ -123,5 +123,6 @@ SELECT * FROM Products WHERE ProductName LIKE '%chef%'
 SELECT * FROM Orders WHERE OrderID IN(10248,10249,10250,10251,10252)
 
 --11. Get the Order details where the freight value is between 3.05 and 66.29 but not 3.05 or 66.29.
+
 SELECT * FROM Orders WHERE Freight BETWEEN 3.05 AND 66.29 ORDER BY Freight
 
