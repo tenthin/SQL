@@ -53,5 +53,4 @@ SELECT * FROM ORDERS WHERE ShipCity='Madrid' and OrderDate>@ORDERDATE and freigh
 drop procedure getorderdetails
 
 -- 5. execute the above created Stored procedure, with shipcity: 'Madrid', freight:45.08, orderdate:'1997-04-15 00:00:00.000'
-
 EXEC getorderdetails 'Madrid', 45.08, '1997-04-15 00:00:00.000'

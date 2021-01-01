@@ -1,0 +1,20 @@
+Question 6:
+
+/* 
+   1. Create a Stored Procedure (with a proper name) which can be used to display all the orders from a dynamic value of shipcountry, 
+	  and a dynamic value of employeeID and freight between dynamic value of freight passed in the parameters.
+	  
+   2. Execute your Stored Procedure with parameter values ; Shipcountry = Germany, EmployeeID = 4 and Freight range from 15 to 120 
+   
+   3. If there exists an order record from shipcountry as 'Portugal' then display all orders from shipcountry 'Tibet', Else.. if there exists
+	  orders with freight value higher than 120 then display all orders of customer whose ID is 'RATTC' Else.. if there is no record of orders
+	  with shipcountry as 'Canada' then display all orders shipped via 3 Else.. Get all orders shipped via 1 or 2.	
+	  
+   4. From Order Details table, for all orders with Quantity less than 35, show "quantity less than 35" in a new Description column,
+	  Likewise, for all orders with Quantity equals to 35, show "quantity is 35" in description column and
+	  for for orders with quantity above 35, show "Quantity more than 35" in the description column.	
+	  
+   5. For our company data analysis, we need to find out the average freight value of each shipcountry from Orders which are not Shippedvia 1
+*/
+SQ_Questions 6.txt
+Displaying SQ_Questions 6.txt.
