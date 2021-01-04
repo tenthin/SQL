@@ -1,0 +1,12 @@
+1. Which category in Categories comes under non-veg ?
+2. Show the list of all customers in an ascending order of CompanyName and then ContactName.
+3. Display the number of customers in each country where the number of customers are greater than 5, 
+   order in descending order of the number of customers.
+4. How many customers have placed orders so far ?
+5. Display all the records from Products which has the same supplier ID and category ID Or has more than 99 Units in Stock.
+6. Create a Stored Procedure that accepts 2 parameters : UnitPrice and SupplierID. This Stored Procedure should be returning all the 
+   product details for that supplierID passed and Unitprice higher or equal to that which will be passed while executing the Stored Procedure.
+7. Execute the above Stored Procedure with UnitPrice as 89 and supplierID as 5.
+8. Get the number of Territory for the each Region ID.
+9. Is there any supplier from France or Denmark who has not mentioned their Fax number ?    
+10.What is the name of the product which has the highest UnitPrice and whether that product is still running or not ?

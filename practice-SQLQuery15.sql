@@ -3,20 +3,25 @@
 create procedure Shipp 
 @Shipcountry nvarchar(20), @employeeID int, @freight money
 AS
-SELECT ShipCountry,EmployeeID,freight FROM Orders WHERE Shipcountry = @Shipcountry and employeeID = @employeeID and freight between @freight and @freight + 105
-drop procedure Ship
-	  
+SELECT * FROM Orders WHERE Shipcountry = @Shipcountry and employeeID = @employeeID and freight between @freight and @freight + 105
+drop procedure Shipp
+	
+create procedure Shipp2 
+@Shipcountry nvarchar(20), @employeeID int, @freight1 money, @freight2 money
+AS
+SELECT * FROM Orders WHERE Shipcountry = @Shipcountry and employeeID = @employeeID and freight between @freight1 and @freight2
+drop procedure Shipp2	  
 --2. Execute your Stored Procedure with parameter values ; Shipcountry = Germany, EmployeeID = 4 and Freight range from 15 to 120 
 EXEC Shipp 'GERMANY',4, 15
-
+EXEC Shipp2 'GERMANY',4, 15, 120
 --3. If there exists an order record from shipcountry as 'Portugal' then display all orders from shipcountry 'Tibet', Else.. if there exists
 --orders with freight value higher than 120 then display all orders of customer whose ID is 'RATTC' Else.. if there is no record of orders
 --with shipcountry as 'Canada' then display all orders shipped via 3 Else.. Get all orders shipped via 1 or 2.	
 SELECT * FROM Orders
 
-IF EXISTS (SELECT * FROM Orders WHERE ShipCountry ='PORTUGAL')
+IF EXISTS (SELECT * FROM Orders WHERE ShipCountry ='Tibet')
 BEGIN
-SELECT * FROM Orders WHERE ShipCountry='TIBET'
+SELECT * FROM Orders WHERE ShipCountry='PORTUGAL'
 END
 ELSE IF EXISTS (SELECT * FROM Orders WHERE Freight>120)
 BEGIN
