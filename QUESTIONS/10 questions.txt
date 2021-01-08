@@ -1,0 +1,7 @@
+1. Create table A and table B (should be different table). Table A should have 
+a primary key which will be a foreign key to table B. Insert records in both.
+2. Do INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN to table A and B.
+3. What are the productIDs ordered by Customer with ID 'TOMSP'
+4. What are the productIDs shipped via 2
+5. Which customerIDs have got some discount in their orders.
+

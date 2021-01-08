@@ -1,0 +1,9 @@
+/* Questions - 11
+
+1. Which products has a discount but is still not discontinued.
+2. Which products come under SeaFood Category.
+3. What products does the supplier company 'Pavlova, Ltd.' supply.
+4. Which products contain cheese in them ?
+5. What are the products supplied from USA and what is the companyName ?
+
+*/

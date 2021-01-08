@@ -1,0 +1,5 @@
+1. Did Customer 'Maria Anders' placed any orders ?
+2. Who are all the customers whose orders are shippedVia 2.
+3. Name all the customers whose orders are shipped before '1997-02-24 00:00:00.000'
+4. Who are all the customers whose country is same as the country from which the Order is shipped.
+5. Is there any Sales related customers who have placed orders, if so, what are their Company name ?

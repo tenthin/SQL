@@ -1,5 +1,4 @@
-﻿
-What is a Relational Database?
+﻿What is a Relational Database?
 A relational database refers to the database type that stores a collection of data items having pre-defined relationships. This database adopts the relational model, representing data as a set of tables with columns and rows. 
 In a relational database, each column within a table contains specific data and a field that stores an attribute’s real value.
 On the other hand, the rows within a table contain a collection of a particular object’s related values. 
@@ -73,9 +72,19 @@ store procedure
 
 $$ Finished until HERE $$
 //////////////////////////////////////////////////////////////////////////////////////////////////
+ddl: create, alter, drop, truncate(Data definition Language)
+dql: SELECT (data query Language)
+dml: insert,update, delete (data manipulation language)
+dcl: grant, revoke (data control language) {not that important to know completely, but know the basic theory}
+
+
+Examples of TCL commands:
+
+    COMMIT– commits a Transaction.
+    ROLLBACK– rollbacks a transaction in case of any error occurs.
+    SAVEPOINT–sets a savepoint within a transaction.
+    SET TRANSACTION–specify characteristics for the transaction.
+
 
 JOINS
 constraint
-
-
-
