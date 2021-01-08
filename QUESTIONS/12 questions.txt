@@ -1,0 +1,9 @@
+/*
+Questions 12
+
+1. Did Ms. Davolio ordered anything in 1997 shipped via 2
+2. Which products are supplied from the company 'Exotic Liquids'.
+3. Territory 'Boston' is located in which region ?
+4. Display the total price of all the products ordered one by one.
+5. Did Ms. Davolio ordered anything in 1997 shipped via company 'United Package'
+*/
