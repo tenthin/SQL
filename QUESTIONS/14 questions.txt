@@ -1,0 +1,5 @@
+1. Which customer has ordered from France?
+2. Which customer has ordered Product with ProductID 11 ?
+3. Which customer has ordered the product 'Queso Cabrales' ?
+4. Who supplies the product 'Queso Cabrales' ?
+5. The product 'Queso Cabrales' comes under which category ?

@@ -1,0 +1,5 @@
+1. I want all the data from Territories table but also matching territoryID from EmployeeTerritories table. (and vice-versa)
+2. Employee Ms. Dodsworth lives in which territory ?
+3. Does supplier 'PB Knäckebröd AB' supply products which belongs to category 'Confections' ?
+4. Do we have any order for product 'Uncle Bob's Organic Dried Pears' for more than total price 20000 rupees ?
+5. Does Supplier 'Nord-Ost-Fisch Handelsgesellschaft mbH' supplies meat products ?
